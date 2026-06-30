@@ -1,0 +1,18 @@
+Advantages
+Provides automatic recovery from server failures.
+Minimizes application downtime and service interruptions.
+Improves application availability and reliability.
+Automatically scales infrastructure during high traffic periods.
+Reduces operational costs by using resources only when required.
+Eliminates continuous manual infrastructure monitoring.
+Improves application performance through efficient load balancing.
+Supports business continuity during unexpected failures.
+Offers better customer experience with consistent service availability.
+Easily scalable for organizations of different sizes.
+Limitations
+Requires knowledge of AWS services and cloud architecture.
+Incorrect Auto Scaling policies may increase operational costs.
+AWS services incur usage-based charges.
+Monitoring multiple cloud services can become complex.
+Internet connectivity is required to access cloud infrastructure.
+Security configurations must be properly managed to prevent vulnerabilities.
