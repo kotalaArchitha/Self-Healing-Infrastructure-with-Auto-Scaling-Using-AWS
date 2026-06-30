@@ -1,0 +1,30 @@
+1. Users
+
+Users access the application through web browsers or mobile devices. Their requests are sent to the cloud infrastructure hosted on AWS.
+
+2. Elastic Load Balancer (ELB)
+
+The Elastic Load Balancer receives incoming requests from users and distributes them evenly across multiple EC2 instances. This prevents any single server from becoming overloaded and improves application availability.
+
+3. Amazon EC2 Instances
+
+Amazon EC2 provides virtual machines that host the application. Multiple EC2 instances work together to process user requests efficiently.
+
+4. Auto Scaling Group (ASG)
+
+The Auto Scaling Group automatically increases or decreases the number of EC2 instances based on workload demand. It also replaces unhealthy instances automatically, implementing the self-healing feature.
+5. Amazon CloudWatch
+
+CloudWatch continuously monitors system metrics such as CPU utilization, network traffic, and instance health. It generates alarms whenever thresholds are crossed.
+
+6. CloudWatch Alarms
+
+CloudWatch alarms trigger scaling actions whenever CPU utilization becomes too high or too low. These alarms communicate directly with the Auto Scaling Group.
+
+7. Health Checks
+
+Health checks periodically verify whether EC2 instances are functioning correctly. Failed instances are marked unhealthy and replaced automatically.
+
+8. AWS Availability Zones
+
+The infrastructure can be deployed across multiple Availability Zones to improve fault tolerance and ensure application availability even if one data center becomes unavailable.
