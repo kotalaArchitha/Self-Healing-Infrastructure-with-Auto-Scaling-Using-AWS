@@ -1,0 +1,10 @@
+Uses Amazon EC2 instances to host cloud applications.
+Implements Elastic Load Balancer (ELB) to distribute incoming user traffic.
+Uses Auto Scaling Groups to automatically add or remove EC2 instances.
+Utilizes Amazon CloudWatch to monitor system health and performance.
+Automatically replaces unhealthy or failed EC2 instances.
+Dynamically adjusts infrastructure based on CPU utilization and traffic demand.
+Ensures high availability with minimal downtime.
+Optimizes infrastructure costs through automatic resource management.
+Eliminates manual server monitoring and maintenance.
+Demonstrates fault-tolerant cloud architecture using AWS services.
