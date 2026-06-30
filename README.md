@@ -182,8 +182,6 @@ This project demonstrates how AWS cloud services can be combined to build a resi
 
 ## Author
 
-**Swetha Kotala**
-
-B.Tech – Computer Science and Engineering
+**Architha Kotala**
 
 Project: Self-Healing Infrastructure with Auto Scaling Using AWS
